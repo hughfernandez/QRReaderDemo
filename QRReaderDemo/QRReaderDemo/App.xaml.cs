@@ -11,7 +11,7 @@ namespace QRReaderDemo
         {
             InitializeComponent();
 
-            MainPage = new QRReaderPage();
+            MainPage = new NavigationPage(new QRReaderPage());
         }
 
         protected override void OnStart()
